@@ -1,0 +1,29 @@
+By default, an image of a Corn suffering from common rust
+ailment is hardcoded as an input to the system in the main.py.
+
+In order to change the input open the src folder inside the
+Func_Sim folder and then open main.py with a text editor.
+
+Note line numbers 7,8 where string variables called 
+image_folder & image_name are initialized.
+
+These variables' values should be replaced with the required
+folder & image pair.
+
+The eval folder that is located inside the Func_Sim folder
+contains all the evaluation image folders and image names
+
+Inside the eval folder lies the 12 disease classes that our
+model can infer.
+
+Inside each class lies 3 images for evaluation that the model
+was never introduced to during training.
+
+Replace the the values of the image_folder & image_name 
+variables with the selected class name & image name pair,
+as shown in the default Corn Common Rust example.
+
+Always remeber to add the .type (png/jpg/ect) at the end.
+
+Save and run the main.py to further evaluate the system on
+different classes and inputs.

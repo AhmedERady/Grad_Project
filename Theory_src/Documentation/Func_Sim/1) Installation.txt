@@ -1,0 +1,52 @@
+Instructions to run the source code for the full system 
+functional simulation for 2020/2021 BUE Y4 CE design project.
+
+Both Linux and Windows steps lead to a linux terminal.
+
+If no Linux installation is available follow the Windows
+installation steps.
+
+########################## Linux ##############################
+1) Start terminal & run "sudo apt update" & "sudo apt upgrade"
+
+2) Run "sudo apt install python3" in terminal to make sure
+   the lastest version of python is available
+
+3) Run "python3" in terminal to make sure all the python 
+   environments are in check. Press ctrl+z to exit.
+
+4) Run "sudo apt install python3-pip" to install python
+   package manager
+
+5) Run "pip3 install numpy" for math library & 
+   "pip3 install h5py" for file functions &
+   "pip3 install pillow" for image functions
+
+6) Download the attached "Func_Sim" folder and take note of
+   its path
+
+7) Run "python3 /path/to/Func_Sim/src/main.py"
+
+8) If you're coming from the Windows steps, the windows
+   partition is automatically mounted to "/mnt/" on the
+   terminal so for Ex. if the Func_Sim folder is on the 
+   windows desktop. Then the path is 
+   "/mnt/c/Users/USERNAME/Desktop/Func_Sim/src/main.py"
+   just replace USERNAME with your windows username and run
+   "python3 /mnt/c/Users/USERNAME/Desktop/Func_Sim/src/main.py"
+###############################################################
+
+########################## Windows ############################
+1) Search & open the "Microsoft Store" from the start menu
+
+2) Search for "Debian" and hit install, close login prompt;
+   no login required
+
+3) After install open start menu and search & select 
+   "Turn Windows features on and off"
+
+4) Scroll to the bottom and tick "Windows subsystem for Linux"
+
+5) After restart, open start menu and search "Debian"
+   then follow the Linux steps above
+###############################################################

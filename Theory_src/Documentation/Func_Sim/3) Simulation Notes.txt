@@ -1,0 +1,8 @@
+Due to this being a pure functional simulation with no 
+realistic timing/clock/delay factors, the total time that is
+output at the end of runtime is only for optimization purposes.
+
+At the end of each run, the code hangs even after output 
+display, this is due to the API, System, FPGA threads never 
+returning. This is done in order to simulate on demand nature. 
+Ctrl+C should exit safely.

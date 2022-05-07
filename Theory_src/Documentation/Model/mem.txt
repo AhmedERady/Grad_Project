@@ -1,0 +1,184 @@
+					# 1
+max_ker_row 8
+max_ker_col 9
+max_inp_row 9
+max_inp_col 4096
+
+max_ker_row 1
+max_ker_col 9
+max_inp_row 9
+max_inp_col 4096
+
+max_ker_row 16
+max_ker_col 1
+max_inp_row 1
+max_inp_col 4096
+					
+					# 2
+max_ker_row 1
+max_ker_col 9
+max_inp_row 9
+max_inp_col 1024
+
+max_ker_row 32
+max_ker_col 1
+max_inp_row 1
+max_inp_col 1024
+					
+					# 3
+max_ker_row 1
+max_ker_col 9
+max_inp_row 9
+max_inp_col 1024
+
+max_ker_row 32
+max_ker_col 1
+max_inp_row 1
+max_inp_col 1024
+					
+					# 4
+max_ker_row 1
+max_ker_col 9
+max_inp_row 9
+max_inp_col 256
+
+max_ker_row 64
+max_ker_col 1
+max_inp_row 1
+max_inp_col 256
+					
+					# 5
+max_ker_row 1
+max_ker_col 9
+max_inp_row 9
+max_inp_col 256
+
+max_ker_row 64
+max_ker_col 1
+max_inp_row 1
+max_inp_col 256
+					
+					# 6
+max_ker_row 1
+max_ker_col 9
+max_inp_row 9
+max_inp_col 64
+
+max_ker_row 128
+max_ker_col 1
+max_inp_row 1
+max_inp_col 64
+					
+					# 7
+max_ker_row 1
+max_ker_col 9
+max_inp_row 9
+max_inp_col 64
+
+max_ker_row 128
+max_ker_col 1
+max_inp_row 1
+max_inp_col 64
+					
+					# 8
+max_ker_row 1
+max_ker_col 9
+max_inp_row 9
+max_inp_col 64
+
+max_ker_row 128
+max_ker_col 1
+max_inp_row 1
+max_inp_col 64
+					
+					# 9
+max_ker_row 1
+max_ker_col 9
+max_inp_row 9
+max_inp_col 64
+
+max_ker_row 128
+max_ker_col 1
+max_inp_row 1
+max_inp_col 64
+					
+					# 10
+max_ker_row 1
+max_ker_col 9
+max_inp_row 9
+max_inp_col 64
+
+max_ker_row 128
+max_ker_col 1
+max_inp_row 1
+max_inp_col 64
+					
+					# 11
+max_ker_row 1
+max_ker_col 9
+max_inp_row 9
+max_inp_col 64
+
+max_ker_row 128
+max_ker_col 1
+max_inp_row 1
+max_inp_col 64
+					
+					# 12
+max_ker_row 1
+max_ker_col 9
+max_inp_row 9
+max_inp_col 16
+
+max_ker_row 256
+max_ker_col 1
+max_inp_row 1
+max_inp_col 16
+					
+					# 13
+max_ker_row 1
+max_ker_col 9
+max_inp_row 9
+max_inp_col 16
+
+max_ker_row 256
+max_ker_col 1
+max_inp_row 1
+max_inp_col 16
+
+					# 14
+max_ker_row 12
+max_ker_col 1
+max_inp_row 1
+max_inp_col 1
+
+
+### All model ###
+Largest ker_row 256
+Largest ker_col 9
+
+Largest inp_row 9
+Largest inp_col 4096
+
+Largest out_row 256
+Largest out_col 4096
+
+### Reg ###
+Largest ker_row 1 i
+Largest ker_col 9 k
+
+Largest inp_row 9 k
+Largest inp_col 1 j
+
+Largest out_row 1 i
+Largest out_col 1 j
+
+### BRAM ###
+Largest ker_row 256 i
+Largest ker_col 9   k
+
+Largest inp_row 9   k
+Largest inp_col 256 j
+
+Largest out_row 256 i
+Largest out_col 256 j

@@ -1,0 +1,43 @@
+##################### Quartus #####################
+1) Wrap custom IP with Avalon in HDL
+
+2) Append custom IP with GHRD in Qsys and 
+   interconnect with required components
+   Run File > Analysis in IP menu then
+   Save qsys & note the IP Base & End address 
+   from System Contents then Generate HDL 
+   & Finish
+
+3) Run Analysis & Synthesis to verify design
+   then run assembler to generate .sof
+
+4) Quickly test design by .sof programming
+
+5) Copy .rbf to sdcard and reboot FPGA
+###################################################
+
+######################## C ########################
+1) Write to and Read from these registers based
+   on offset values from the buses used
+   consult datasheet for further information on 
+   FPGA-HPS/HPS-FPGA bus address offsets
+###################################################
+
+###################### Linux ######################
+1) Setup LXDE for better software support, and
+   prepare static ip connection for ssh &
+   setup correct dns to get internet access
+
+2) Install python3 from apt and install pip3 that
+   supports python 3.5 from 
+   https://bootstrap.pypa.io/pip/3.5/
+
+3) Download python3-dev & libjpeg-dev & zlib1g-dev
+   to support building of pip3 packages
+
+4) Install numpy from pip, 
+   install h5py by running python3-h5py
+   install pillow from pip
+
+5) scp the Python folder and run python3 main.py
+###################################################
