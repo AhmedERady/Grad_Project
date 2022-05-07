@@ -18,5 +18,5 @@ With the aid of more than 30+ papers reviewed - An exploration into the practica
 ## Contains
 1)  Comprehensive documentation and block diagrams
 2)  Full practical src code (Python/C/VHDL)
-3)  Full theortical material (Reports/Presentations/Documentation)
+3)  Full theortical material (Reports/Presentations/Diagrams/Documentation)
 4)  Modular based implementation for free use & to advance fundamental understanding of the covered topics
