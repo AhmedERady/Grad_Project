@@ -7,7 +7,7 @@ With the aid of more than 30+ papers reviewed - An exploration into the practica
 1)  Applicational requirements & constraints 
 2)  CNN fundamentals & Building blocks review
 3)  CNN platform review
-4)  CNN and DeepWiseConvolution review and analysis
+4)  CNN and DepthWiseConvolution review, comparison & analysis
 5)  Model training practices
 6)  Custom Python implementation
 7)  System functional simulation
